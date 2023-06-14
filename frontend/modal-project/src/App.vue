@@ -1,8 +1,3 @@
-<template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
-</template>
-
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 
@@ -24,3 +19,11 @@ export default {
   margin-top: 60px;
 }
 </style>
+
+<template>
+  <HelloWorld
+    address="127.0.0.1"
+    port="8000"
+    route="services"
+  />
+</template>

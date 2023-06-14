@@ -10,7 +10,7 @@ app = FastAPI(dependencies=[])#Depends(get_query_token)])
 
 origins = [
     'http://localhost:27017', # To set up with MongoDB.
-    'http://localhost:3000'   # To set up with React front-end.
+    'http://localhost:8080'   # To set up with React front-end.
 ]
 
 app.add_middleware(
